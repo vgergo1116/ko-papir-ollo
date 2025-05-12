@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 30px;
+  color: #333;
+}
+
+.choices {
+  margin: 20px;
+}
+
+.choice {
+  font-size: 40px;
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px;
+  transition: transform 0.2s;
+}
+
+.choice:hover {
+  transform: scale(1.2);
+}
+
+#result {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+#score {
+  font-size: 20px;
+  margin-top: 10px;
+}
